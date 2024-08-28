@@ -15,9 +15,12 @@
 
 <body class="d-flex align-items-center justify-content-center vh-100">
 
-
-    <h1 class="text-center" id="app">{{ message }}</h1>
-
+    <div id="app" class="text-center">
+        <!-- Messaggio -->
+        <h1>{{ message }}</h1>
+        <!-- Immagine -->
+        <img :src="imageUrl" alt="Vue Logo">
+    </div>
 
 
     <!-- Link Bootstrap js -->

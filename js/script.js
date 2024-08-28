@@ -1,13 +1,14 @@
 const { createApp } = Vue
 
-// Creazione dell'app Vue
+
 createApp({
-    // Definizione dei dati utilizzando l'Option API
     data() {
         return {
-            // Messaggio da visualizzare nel div con id "app"
-            message: 'Hello Vue!'
+            // Messaggio 
+            message: 'Hello Vue!',
+            // URL dell'immagine da visualizzare
+            imageUrl: 'https://vuejs.org/images/logo.png'
         }
     }
-    // Monta l'app Vue sull'elemento con id "app"
+
 }).mount('#app')
